@@ -5,7 +5,7 @@ echo ""
 
 echo " Setting DNS"
 
-networksetup -setdnsservers Wi-Fi 192.168.1.253
+sudo networksetup -setdnsservers Wi-Fi 192.168.1.253
 
 restored_HD_Path=$1
 ip=$2
