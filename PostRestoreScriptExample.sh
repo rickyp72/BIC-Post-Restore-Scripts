@@ -14,4 +14,6 @@ ip=$2
 echo "Restored Volume Path: " $restored_HD_Path
 echo "IP Setting: " $ip
 
+wait 10
+
 exit 0
